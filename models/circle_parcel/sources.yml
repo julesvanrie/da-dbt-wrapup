@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw_data_circle
+    description: raw data from BigQuery
+    tables:
+      - name: parcel
+        identifier: raw_cc_parcel
+        description: parcel delivery info
+      - name: parcel_product
+        identifier: raw_cc_parcel_product
+        description: parcel content info
+

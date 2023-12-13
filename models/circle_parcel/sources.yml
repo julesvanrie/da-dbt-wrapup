@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw_data_circle
+    description: my raw data
+    tables:
+      - name: parcel
+        identifier: raw_cc_parcel
+        description: parcel level information
+      - name: parcel_product
+        identifier: raw_cc_parcel_product
+        description: parcels split by model name 
+        

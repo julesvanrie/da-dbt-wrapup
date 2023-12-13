@@ -40,3 +40,5 @@ models:
     # Applies to all files under models/example/
     circle_parcel:
       +schema: dbt_jules_dev_circle
+    staging:
+      +schema: dbt_jules_dev_circle_staging
